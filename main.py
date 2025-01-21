@@ -25,7 +25,9 @@ with st.sidebar:
       options=["home","about","contact"],
       icons=["house fill","fil-person","person-line-fill"]
       )
-    if selected =="home":
+    
+ 
+if selected =="home":
       st.title("home page":)
 elif selected == ("about"):
       st.title("")
