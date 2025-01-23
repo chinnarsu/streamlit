@@ -17,6 +17,13 @@
 #     st.metric("python","full stack",-20)
 # with col3:
 #     st.metric("python","full stack",-20)
+# with st.sidebar:
+#     name = st.text_input("Enter your name")
+#     st.button("click ")
+#     st.write(name)
+#     st.balloons()
+
+
 import streamlit as st
 from streamlit_option_menu import option_menu
 with st.sidebar:
@@ -35,8 +42,3 @@ elif selected =="contact":
 
 
 
-# with st.sidebar:
-#     name = st.text_input("Enter your name")
-#     st.button("click ")
-#     st.write(name)
-#     st.balloons()
