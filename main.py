@@ -28,7 +28,7 @@ with st.sidebar:
     
  
 if selected =="home":
-      st.title("home page":)
+      st.title("home page")
 elif selected == ("about"):
       st.title("")
 elif selected =="contact":
